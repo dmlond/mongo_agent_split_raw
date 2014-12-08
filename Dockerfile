@@ -1,8 +1,3 @@
-# Use this to build a mongo_agent:candidate
-# then build mongo_agent_base with it to
-# produce dmlond/mongo_agent_split_raw
-# docker build -t mongo_agent:candidate .
-# docker build -t dmlond/mongo_agent_split_raw ../../mongo_agent_base
 FROM dmlond/split_raw
 MAINTAINER Darin London <darin.london@duke.edu>
 
